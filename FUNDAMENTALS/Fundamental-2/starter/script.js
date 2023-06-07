@@ -1,8 +1,7 @@
 //                                              FUNDAMENTAL 2
 
-'use strict'; // this activate strict mode to help secure our script. always begin with it
+"use strict"; // this activate strict mode to help secure our script. always begin with it
 // also helps to avoid using reserved word that can be used in the future.
-
 
 /*
 //                                  DECLARATION FUNCTIONS: 
@@ -255,7 +254,6 @@ const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(bills, tips, total);
 */
 
-
 /*
 //                                        INTRODUCTION TO OBJECTS
 
@@ -287,7 +285,6 @@ togther. in object the order of values does not matter but in array the order ma
 Array for structure data
 Object for unstructure data
 */
-
 
 /*
 //                                  DOT VS BRACKET NOTATION
@@ -330,7 +327,6 @@ console.log(jonas)
 // show "jonas has 3 friends, and his bestfriend is called michael"
 console.log(`${jonas.firstName} has ${jonas.friends.length} firends and his bestfriend is ${jonas.friends[0]}`);
 */
-
 
 /*
 //                                              OBJECT METHODS
@@ -409,14 +405,14 @@ if (mark.bmi > john.bmi) {
 
 //                                             ITERATION: THE FOR LOOP.
 
-//IF, ELSE STATEMENT are control structure and LOOP are also control structure. 
+//IF, ELSE STATEMENT are control structure and LOOP are also control structure.
 // LOOPS helps to autimate repetitve task
 
 // for loop keeps running while the condition is true.
 // the for loop as 3 parts
 //1. the initial value of the counter.
 //2. logical condition that is evaluated before each iteration of the loop.
-//3. The counter variable. 
+//3. The counter variable.
 
 // for (let rep = 1; rep <= 10; rep ++ ) {
 //    console.log(`Lifting weights is a repition task ${rep}`)
@@ -504,7 +500,6 @@ for (let excercise = 1; excercise < 4; excercise ++) {
 }
 */
 
-
 //                              THE WHILE LOOP
 
 // let rep = 1;
@@ -512,7 +507,7 @@ for (let excercise = 1; excercise < 4; excercise ++) {
 //    console.log(`lifting weights repetion ${rep}`);
 //    rep++;
 // }
-// //All a while loop really needs is the condition dosent really need a counter 
+// //All a while loop really needs is the condition dosent really need a counter
 // //and counter varaible.
 
 // //Math.randon will create a number between 0 and 1 but multiplying by 6 wil be in a decimal
@@ -557,4 +552,25 @@ for (let excercise = 1; excercise < 4; excercise ++) {
  console.log(calcAverage([2, 3, 7]));
  console.log(calcAverage(totals));
  console.log(calcAverage(tips));
+*/
+
+/*
+const temperatures = [3, -2, -6, -1, "error", 9, 13, 17, 15, 14, 9, 5];
+
+const calcTempAmp = function (temps) {
+  let max = temps[0];
+  let min = temps[0];
+
+  for (let i = 0; i < temps.length; i++) {
+    const curTemp = temps[i];
+    if (typeof curTemp !== "number") continue;
+
+    if (curTemp > max) max = curTemp;
+    if (curTemp < min) min = curTemp;
+
+    return max - min;
+  }
+};
+const amp = calcTempAmp(temperatures);
+console.log(amp)
 */
