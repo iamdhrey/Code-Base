@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(207, 248, 129);
+  font-family: Arial;
+  font-size: 20px;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.first {
+  color: rgb(59, 124, 245);
+}
+
+#your-name {
+  background-color: rgb(213, 243, 218);
+  border: 5px solid #444;
+  width: 300px;
+  padding: 24px;
+  margin-top: 30px;
+}
+
+input,
+button {
+  padding: 5px;
+  font-size: 16px;
+}
+
+a {
+  background-color: bisque;
+}
+
+#product-image {
+  height: 250px;
+  width: 300px;
+}
+
+#your-name h2 {
+  color: olivedrab;
+}
