@@ -164,11 +164,11 @@ const future = 2037
 const nelson = " i'm " + firstName + " , a " + (future - birthYear) + " years old " + job + "!";
 console.log(nelson);
 
-//                      TEMPLATES LITERALS
+//                                       TEMPLATES LITERALS
 const nelsonNew = `I'm ${firstName}, a ${future - birthYear} year old ${job}`;
 console.log(nelsonNew);
 
-//                      MULTI-LINE STRINGS
+//                                       MULTI-LINE STRINGS
 
 console.log('string with \n\
 miltiple \n\
@@ -323,7 +323,7 @@ if (height) {
 // if (favourite === 23) { // 23 === 23
 //     console.log('Cool! 23 is an Amazing Number!');
 // }
-//                              ELSE IF STATEMENT
+//                                                    ELSE IF STATEMENT
 
 const favourite = Number(prompt("Whats yoyr favourite number?"));
 console.log(favourite);
@@ -456,7 +456,6 @@ if (day === 'monday') {
 }
 */
 
-
 /*
 //                                      STATEMENT AND EXPRESSION.
 
@@ -466,7 +465,6 @@ if (day === 'monday') {
 //Whenever something ends with ;, then its a statement. in template literals we can
 //only use expressions not statment
 */
-
 
 /*
 //28.                                   THE CONDITIONAL(TERNARY) OPERATOR

@@ -62,7 +62,7 @@ console.log(age2);
 */
 
 /*
-//                                     ARROW FUNCTIONS
+//                           ARROW FUNCTIONS
 
 //THIS WAS ADDED TO JAVASCRIPT ON ES6. IT IS SHORTER AND FASTER TO WRITE
 // THIS ELIMATE TE CURLY BRACES AND EXPLICITLY INVOKE THE RETURN
